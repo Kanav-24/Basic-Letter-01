@@ -7,7 +7,7 @@ body{
 	position:relative;
 	width:200px;
 	height:260px;
-border:1px solid black;
+border:2px dashed black;
 display: inline-block;
 }
 
