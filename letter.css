@@ -1,5 +1,6 @@
 body{
    margin:50px;
+   background:#04151F;
 }
 
 
@@ -7,7 +8,7 @@ body{
 	position:relative;
 	width:200px;
 	height:260px;
-border:2px dashed black;
+border:2px dashed white;
 display: inline-block;
 }
 
@@ -15,31 +16,64 @@ display: inline-block;
 .i-stem,
 .l-stem,
 .e-stem,
-.f-stem
+.f-stem,
+.b-stem,
+.k-stem,
+.d-stem,
+.c-stem,
+.g-stem,
+.m-stem,
+.h-stem,
+.r-stem,
+.u-stem,
+.p-stem,
+.o-stem,
+.n-stem,
+.t-stem,
+.q-stem
+
 {
 	width:50px;
 	height:260px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:50px;
 }
 
 .l-foot,
-.e-foot
+.e-foot,
+.b-foot,
+.c-foot,
+.o-foot,
+.u-foot,
+.d-foot,
+.g-foot,
+.q-foot
+
 {
 width:100px;
 	height:50px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:100px;
 	top:210px;
 }
 .f-bar,
-.e-bar
+.e-bar,
+.b-bar,
+.c-bar,
+.p-bar,
+.o-bar,
+.d-bar,
+.s-bar,
+.g-bar,
+.q-bar,
+.r-bar
+
 {
  width:150px;
 	height:50px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:50px;
 	top:0px;
@@ -47,13 +81,239 @@ width:100px;
 
 .f-arm,
 .e-arm
+
 {
 
 width:100px;
 	height:50px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:50px;
 	top:100px;
 
 }
+.b-line,
+.p-line,
+.h-line,
+.a-line,
+.s-line,
+.r-line
+  {
+	width:150px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left:50px;
+	top:105px;
+}
+.b-stemopposie,
+.m-stemopposite,
+.h-stemopposite,
+.u-stemopposite,
+.o-stemopposite,
+.n-stemopposite,
+.d-stemopposite,
+.j-stemoppostie,
+.y-stemopposite,
+.q-stemopposite
+
+{
+
+
+	width:50px;
+	height:260px;
+	background: white;
+	position: absolute;
+	left:150px;
+
+}
+.p-stemsmall{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	left:150px;
+}
+.g-stemsmalldown{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	left:150px;
+	bottom: 10px;
+}
+.s-stemsmallright{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	right: :120px;
+
+}
+
+.s-stemsmallleft{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	left:150px;
+	bottom: -5px;
+	}
+
+.k-branchsmall{
+width: 160px;
+height: 50px;
+transform: rotate(-39deg);
+background: white;
+	position: absolute;
+	top:50px;
+	left: 50px;
+}
+
+
+.m-slantright{
+	width:85px;
+	height:40px;
+	background: white;
+	position: absolute;
+	left:60px;
+	top:18px;
+	transform: rotate(35deg);
+}
+.m-slantleft{
+	width:85px;
+	height:40px;
+	background: white;
+	position: absolute;
+	left:95px;
+	top:18px;
+	transform: rotate(-35deg);
+}
+.n-slantbig,
+.x-slantbig{
+	width:60px;
+	height:300px;
+	background: white;
+	position: absolute;
+	left:95px;
+	top:-20px;
+
+	transform: rotate(-35deg);
+}
+.x-slantbigopposite,
+.z-slantbigopposite
+{
+width:60px;
+	height:300px;
+	background: white;
+	position: absolute;
+	left:95px;
+	top:-20px;
+
+	transform: rotate(35deg);
+}
+.j-footoppostie{
+	width:100px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left:50px;
+	top:210px;
+
+}
+.j-stemsmallup{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	left:50px;
+	bottom: 10px;
+}
+
+.t-line{
+	width:200px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.a-rightslant{
+	width:50px;
+	height:240px;
+	background: white;
+	position: absolute;
+	left:30px;
+	top:-5px;
+	transform: rotate(35deg);
+}
+.a-leftslant{
+	width:50px;
+	height:240px;
+	background: white;
+	position: absolute;
+	left:140px;
+	top:-5px;
+	transform: rotate(-35deg);
+}
+.s-footbig,
+.z-footbig
+{
+	width:220px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left:-10px;
+	top:210px;
+
+}
+.r-shortline{
+	width:50px;
+	height:130px;
+	background: white;
+	position: absolute;
+	left:150px;
+}
+.r-lowerline,
+.k-lowerline
+
+{
+width: 160px;
+height: 50px;
+transform: rotate(39deg);
+background: white;
+	position: absolute;
+	bottom:30px;
+	left: 50px;
+}
+
+.q-hash{
+	width: 200px;
+height: 50px;
+transform: rotate(39deg);
+background: white;
+	position: absolute;
+	bottom:50px;
+	left: 50px;
+}
+.y-slide{
+	width: 200px;
+height: 50px;
+transform: rotate(39deg);
+background: white;
+	position: absolute;
+	top:50px;
+	left: 10px;
+}
+.z-barbig{
+	width:200px;
+	height:50px;
+	background: white;
+	position: absolute;
+	left:0px;
+	top:0px;
+
+}
+
+
+
